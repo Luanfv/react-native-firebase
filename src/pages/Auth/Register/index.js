@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { View, Text, TextInput, Button, Alert, ScrollView } from 'react-native';
 import auth from '@react-native-firebase/auth';
 
-const App = () => {
+const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -88,4 +88,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Register;

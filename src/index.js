@@ -1,8 +1,9 @@
 import React from 'react';
 
 import CRUD from './pages/CRUD';
-import Auth from './pages/Auth';
+import Register from './pages/Auth/Register';
+import SignIn from './pages/Auth/SignIn';
 
-const App = () => <Auth />;
+const App = () => <SignIn />;
 
 export default App;

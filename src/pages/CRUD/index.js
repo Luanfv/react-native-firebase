@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { View, Text, TextInput, Button, Alert, ScrollView } from 'react-native';
 import database from '@react-native-firebase/database';
 
-const App = () => {
+const CRUD = () => {
   const [users, setUsers] = useState([]);
   const [name, setName] = useState('');
   const [position, setPosition] = useState('');
@@ -147,4 +147,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default CRUD;
